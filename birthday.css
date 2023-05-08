@@ -1,0 +1,98 @@
+body{
+    text-align: center;
+    font-family: 'Happy Monkey', cursive;
+    background:linear-gradient( #a2d2ff, #EFB0C9);
+    color: #ffffff;
+    
+}
+
+h1, h2, h3, h4, p {
+    text-shadow:0px 0px 3px black;
+}
+
+#header{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: center;
+
+}
+
+#bff-img{ 
+    width: 150px;
+    border-radius: 200px; 
+    border: 6px solid #EfB0C9;
+
+}
+
+#bd-date{
+    background:#EfB0C9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 0px;
+   
+}
+
+#age { 
+    background:#EfB0C9 ;
+    padding: 5px 10px;
+    border-radius: 5px;
+    margin: 10px 0 10px 0;
+}
+
+.gift-section{ 
+    margin-top: 50px;
+
+}
+
+
+.gift-img{ 
+    width: 400px;
+    height: 400px;
+    border: 6px solid white;
+    border-radius: 10px;
+    background-image: url(bowtie.jpg);
+    background-size: cover;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 70px;
+    
+}
+
+
+.gift-name {
+    margin-bottom:20px;
+}
+
+.gift-hint{
+    margin-top: 10px;
+}
+
+#one:hover{
+    background-image: url(happy.webp);
+
+}
+#two:hover{
+    background-image:url(reaction.webp);
+    ;
+}
+
+
+#three:hover{
+    background-image:url(genius.webp);
+    ;
+}
+
+#four:hover{
+    background-image:url(me.webp);
+    ;
+}
+
+#five{
+    height: 200px;
+    margin-bottom: 0px;
+}
+
+#five:hover{
+    background-image: url(cheers.webp);
+}
